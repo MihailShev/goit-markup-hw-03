@@ -40,7 +40,7 @@ ol {
 }
 
 .section {
-  padding: 120px;
+  padding: 120px 0;
 }
 
 /* ===== /general style===== */
@@ -85,6 +85,7 @@ ol {
 
 .addres {
   font-style: normal;
+  display: flex;
 }
 
 .list-addres :hover,
@@ -130,7 +131,7 @@ ol {
 
 .section:nth-of-type(1) {
   background-color: #2e2f42;
-  padding: 188px;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -313,6 +314,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .name-portfoilo-text {
@@ -353,6 +355,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 /* ===== /footer section===== */
