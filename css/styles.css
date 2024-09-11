@@ -48,7 +48,7 @@ ol {
 /* ===== header style===== */
 
 .head-nav-list,
-.link {
+.link-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -77,7 +77,9 @@ ol {
   color: #2e2f42;
 }
 
-.list-addres .link {
+.list-addres,
+.link {
+  font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #434455;
@@ -85,7 +87,6 @@ ol {
 
 .addres {
   font-style: normal;
-  display: flex;
 }
 
 .list-addres :hover,
@@ -100,22 +101,21 @@ ol {
 .flex-box {
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .head-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .head-nav-list {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
-.head-nav-list,
-.link {
+.link-nav {
+  display: block;
   padding: 24px 0;
 }
 
@@ -241,12 +241,12 @@ ol {
 }
 
 .item-team {
+  background-color: #fff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
 .text-box-team {
-  background-color: #fff;
   padding: 32px 0;
 }
 
@@ -305,7 +305,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .name-portfoilo {
